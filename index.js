@@ -7,9 +7,9 @@
 // }
 // // For2
 // let pricePerKg = 12.5;
-// for (let weight = 0.1; weight <= 1.0; weight += 0.1) {
-//     let cost = weight * pricePerKg;
-//     console.log(`${weight.toFixed(1)} kg konfetning narxi: ${cost.toFixed(2)} so'm`);
+// for (let i = 0.1; i <= 1.0; i += 0.1) {
+//     let cost = i * pricePerKg;
+//     console.log(`${i.toFixed(1)} kg konfetning narxi: ${cost.toFixed(2)} so'm`);
 // }
 
 // For3
@@ -18,7 +18,7 @@
 // for (let i = n; i <= 2 * n; i++) {
 //   S += i ** 2;
 // }
-// console.log(`Yig'indi S = ${S}`);
+// console.log(`Yigindi S = ${S}`);
 
 // For4
 // let N = 5;
@@ -26,7 +26,7 @@
 // for (let i = 1; i <= N; i++) {
 //     S += i ** (N - i + 1);
 // }
-// console.log(`Yig'indi S = ${S}`);
+// console.log(`Yigindi S = ${S}`);
 
 // For5
 // let A = 2;
@@ -45,7 +45,7 @@
 //     divisors.push(i);
 //   }
 // }
-// console.log(`Son ${number} ning bo'luvchilari ${divisors.join(", ")}`);
+// console.log(`Son ${number} ning boluvchilari ${divisors.join(", ")}`);
 
 // While1
 // let number = 12;
@@ -68,8 +68,8 @@
 //   quotient++;
 // }b
 
-// console.log(`Bo'linmaning butun qismi: ${quotient}`);
-// console.log(`Bo'linmaning qoldig'i: ${remainder}`);
+// console.log(`Bolinmaning butun qismi: ${quotient}`);
+// console.log(`Bolinmaning qoldig'i: ${remainder}`);
 
 // for1
 // let a = 3;
