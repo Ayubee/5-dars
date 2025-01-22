@@ -18,7 +18,7 @@
 // for (let i = n; i <= 2 * n; i++) {
 //   S += i ** 2;
 // }
-// console.log(`Yigindi S = ${S}`);
+// console.log(`${S}`);
 
 // For4
 // let N = 5;
