@@ -1,75 +1,68 @@
-// // For1
-// let k = 5;
-// let n = 3;
+// For1
+// const k = 5;
+// const n = 3;
 
-// for (let i = 0; i < n; i++) {
-//   console.log(k);
-// }
-// // For2
-// let pricePerKg = 12.5;
-// for (let i = 0.1; i <= 1.0; i += 0.1) {
-//     let cost = i * pricePerKg;
-//     console.log(`${i.toFixed(1)} kg konfetning narxi: ${cost.toFixed(2)} so'm`);
+// if (n > 0) {
+//   for (let i = 0; i < n; i++) {
+//     console.log(k);
+//   }
 // }
 
 // For3
-// let n = 5;
-// let S = 0;
-// for (let i = n; i <= 2 * n; i++) {
-//   S += i ** 2;
+// const n = 3;
+
+// if (n > 0) {
+//   let S = 0;
+//   for (let i = n; i <= 2 * n; i++) {
+//     S += i ** 2;
+//   }
+//   console.log(S);
 // }
-// console.log(`${S}`);
 
 // For4
-// let N = 5;
-// let S = 0;
-// for (let i = 1; i <= N; i++) {
-//     S += i ** (N - i + 1);
+// const N = 5;
+
+// if (N > 0) {
+//   let s = 0;
+//   for (let i = 1; i <= N; i++) {
+//     s += i ** (N - i + 1);
+//   }
+//   console.log(s);
 // }
-// console.log(`Yigindi S = ${S}`);
 
 // For5
-// let A = 2;
-// let B = 5;
-// for (let i = A; i <= B; i++) {
-//   for (let j = 0; j < i; j++) {
-//     console.log(i);
+// const A = 2;
+// const B = 5;
+// if (A < B) {
+//   for (let i = A; i <= B; i++) {
+//     for (let j = 0; j < i; j++) {
+//       console.log(i);
+//     }
 //   }
 // }
-
-// For6
-// let number = 12;
-// let divisors = [];
-// for (let i = 1; i <= number; i++) {
-//   if (number % i === 0) {
-//     divisors.push(i);
-//   }
-// }
-// console.log(`Son ${number} ning boluvchilari ${divisors.join(", ")}`);
 
 // While1
-// let number = 12;
-// let divisors = [];
-// for (let i = 1; i <= number; i++) {
-//   if (number % i === 0) {
-//     divisors.push(i);
-//   }
+// let n = 50;
+// let k = 3;
+// let count = 0;
+
+// while (k < n) {
+//   n = n - k;
+//   count++;
 // }
-// console.log(`Son ${number} ning bo'luvchilari: ${divisors.join(", ")}`);
+// console.log(n, count);
 
 // While2
-// let N = 17;
-// let K = 5;
-// let quotient = 0;
-// let remainder = N;
+// let n = 128;
+// let i = 0;
+// let sum = 0;
 
-// while (remainder >= K) {
-//   remainder -= K;
-//   quotient++;
-// }b
+// while (sum < n) {
+//   sum = 2 ** i;
+//   i++;
+// }
 
-// console.log(`Bolinmaning butun qismi: ${quotient}`);
-// console.log(`Bolinmaning qoldig'i: ${remainder}`);
+// console.log(i - 1);
 
 // for1
 // let a = 3;
@@ -82,7 +75,7 @@
 //   count++;
 // }
 
-// console.log(`Chiqilgan sonlar soni: ${count}`);
+// console.log(`${count}`);
 
 // for2
 // let a = 3;
@@ -95,4 +88,4 @@
 //   count++;
 // }
 
-// console.log(`Chiqilgan sonlar soni: ${count}`);
+// console.log(`${count}`);
